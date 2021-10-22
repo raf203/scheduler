@@ -18,6 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,7 +32,86 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      
+      <div class="row">
+        <div class="hour col-2 time-block py-4 description">8:00am
+         <span class="descriptionText">Current schedule</span>
+        </div>
+         <textarea class="present col-8"></textarea>
+
+         <button type="button" class="oi oi-calendar col-1  saveBtn"></button>
+       </div>
+     <div class="row">
+       <div class="hour col-2 time-block py-4 description">8:30am
+         <span class="descriptionText">Current schedule</span>
+       </div>
+          <textarea class="present col-8"></textarea>
+          <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+      </div>
+      <div class="row">
+       <div class="hour col-2 time-block py-4 description">9:00am
+         <span class="descriptionText">Current schedule</span>
+       </div>
+          <textarea class="present col-8"></textarea>
+          <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+      </div>
+    <div class="row">
+      <div class="hour col-2 time-block py-4 description">9:30am
+       <span class="descriptionText">Current schedule</span>
+      </div>
+         <textarea class="present col-8" ></textarea>
+         <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+     </div>
+     <div class="row">
+       <div class="hour col-2 time-block py-4 description">10:00am
+         <span class="descriptionText">Current schedule</span>
+       </div>
+          <textarea class="present col-8"></textarea>
+          <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+      </div>
+    <div class="row">
+      <div class="hour col-2 time-block py-4 description">10:30am
+       <span class="descriptionText">Past schedule</span>
+      </div>
+         <textarea class="past col-8"></textarea>
+         <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+     </div>
+     <div class="row">
+       <div class="hour col-2 time-block py-4 description">11:00am
+         <span class="descriptionText">Past chedule</span>
+       </div>
+          <textarea class="past col-8" ></textarea>
+          <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+      </div>
+    <div class="row">
+      <div class="hour col-2 time-block py-4 description">11:30am
+       <span class="descriptionText">Past Schedule</span>
+      </div>
+        <textarea class="past col-8"></textarea>
+         <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+     </div>
+
+      <div class="row">
+        <div class="hour col-2 time-block py-4 description">1:00pm
+         <span class="descriptionText">future schedule</span>
+        </div>
+           <textarea class="future col-8"></textarea>
+           <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+       </div>
+     <div class="row">
+       <div class="hour col-2 time-block py-4 description">3:15am
+         <span class="descriptionText">future schedule</span>
+       </div>
+          <textarea class="future col-8"></textarea>
+          <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+      </div>
+      <div class="row">
+        <div class="hour col-2 time-block py-4 description">5:00pm
+         <span class="descriptionText">Future schedule</span>
+        </div>
+           <textarea class="future col-8" ></textarea>
+           <button type="button" class="oi oi-calendar col-1 saveBtn"></button>
+       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
