@@ -1,11 +1,11 @@
-##scheduler Challenge
+## Scheduler Challenge
 
-#Request
+# Request
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-#Complete the following Acceptance Criteria
+# Complete the following Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -20,8 +20,8 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-Url deployed application
+# Url deployed application
 https://raf203.github.io/scheduler/
 
-GitHub Repository
+# GitHub Repository
 https://github.com/raf203/scheduler<img width="1396" alt="Screen Shot 2021-10-23 at 12 38 28 PM" src="https://user-images.githubusercontent.com/89607465/138569499-20a773fd-b85d-4631-be92-9eeb1b9fa091.png">
